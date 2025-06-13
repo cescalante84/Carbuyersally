@@ -2,42 +2,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>The Car Buyer's Ally</title>
-    <style>
-        body { font-family: Arial, sans-serif; background: #f9f9f9; color: #333; margin: 0; padding: 20px; }
-        .container { max-width: 600px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        .logo { width: 100px; margin-bottom: 20px; }
-        h1 { color: #0056b3; }
-        ul { padding-left: 20px; }
-        .language-switch { margin-top: 20px; }
-        a.button { display: inline-block; margin-top: 10px; padding: 10px 15px; background: #0056b3; color: white; text-decoration: none; border-radius: 4px; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Car Buyer's Ally</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+    header {
+      background-color: #1e2a38;
+      color: white;
+      padding: 20px 10px;
+    }
+    img.logo {
+      max-width: 150px;
+      display: block;
+      margin: 10px auto;
+    }
+    .lang-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: #f5f5f5;
+      border: 1px solid #ccc;
+      padding: 8px 12px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .content {
+      padding: 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <img src="assets/logo.jpeg" alt="Logo" class="logo">
-        <h1>The Car Buyer’s Ally</h1>
-        <p>Helping Tulsa car buyers get the best deal</p>
-
-        <h2>Services</h2>
-        <ul>
-            <li>Price negotiation</li>
-            <li>Trade value analysis</li>
-            <li>Financing advice</li>
-            <li>Post-purchase product cancellation</li>
-        </ul>
-
-        <h2>Contact</h2>
-        <p>Email: carbuyers.ally@gmail.com</p>
-        <p>Phone: 910-751-9485</p>
-        <p>Location: Tulsa, Oklahoma</p>
-
-        <div class="language-switch">
-            <a href="index_es.html" class="button">Ver en Español</a>
-        </div>
-
-        <p style="margin-top: 40px; font-size: 0.9em; color: gray;">© 2025 The Car Buyer’s Ally</p>
-    </div>
+  <button class="lang-btn" onclick="window.location.href='index_es.html'">Español</button>
+  <header>
+    <img src="logo.jpeg" alt="The Car Buyer's Ally Logo" class="logo"/>
+    <h1>The Car Buyer's Ally</h1>
+    <p>Your personal car buying consultant in Tulsa, OK</p>
+  </header>
+  <div class="content">
+    <p>I’m here to help you avoid dealership tricks and save money.</p>
+    <ul>
+      <li>🚘 Price negotiation help</li>
+      <li>🔍 Trade-in value analysis</li>
+      <li>💰 Finance advice</li>
+      <li>📝 Cancel unnecessary extras</li>
+    </ul>
+    <p>Contact me:<br>
+      📧 carbuyers.ally@gmail.com<br>
+      📞 910-751-9485</p>
+  </div>
 </body>
 </html>
