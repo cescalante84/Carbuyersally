@@ -1,0 +1,191 @@
+body {
+    background: #000;
+    color: #fff;
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+    background: #000;
+}
+
+.logo {
+    width: 100px;
+    max-width: 30vw;
+    height: auto;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+    background: #000;
+    border-radius: 16px;
+    box-shadow: none;
+}
+
+.business-name {
+    font-size: 2.1rem;
+    margin: 0.3rem 0;
+    font-weight: 700;
+    color: #fff;
+}
+
+.subtitle {
+    color: #ccc;
+    margin-bottom: 1.5rem;
+}
+
+.lang-toggle {
+    text-align: right;
+    padding: 1rem 1.5rem 0 0;
+    background: #000;
+}
+
+.lang-toggle button {
+    background: #111;
+    color: #fff;
+    border: 1px solid #fff;
+    font-weight: 600;
+    padding: 0.3em 1em;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    outline: none;
+}
+.lang-toggle button:hover {
+    background: #fff;
+    color: #000;
+}
+
+.hero-image {
+    width: 100%;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 1.5rem auto;
+    border-radius: 10px;
+    max-width: 700px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    filter: grayscale(1) contrast(1.1);
+    background-color: #000;
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    background: #000;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.services h2, .booking-info h2, .contact h2, .testimonial h2 {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    border-left: 4px solid #fff;
+    padding-left: 0.6rem;
+    letter-spacing: 1px;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.service-block {
+    background: #181818;
+    border-radius: 8px;
+    padding: 1rem 1.3rem 1rem 1.3rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.10);
+}
+.service-block h3 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+}
+.service-block p {
+    color: #eaeaea;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.booking-info .cta {
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+}
+
+.contact-direct {
+    list-style: none;
+    padding: 0;
+    margin: 0.6rem 0 0 0;
+}
+.contact-direct li {
+    margin-bottom: 0.6rem;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.contact li {
+    margin-bottom: 0.7rem;
+    color: #ccc;
+}
+.contact a {
+    color: #fff;
+    text-decoration: underline;
+}
+.contact .icon {
+    vertical-align: middle;
+    margin-right: 0.4em;
+    filter: grayscale(1);
+}
+
+.testimonial blockquote {
+    background: #111;
+    border-left: 4px solid #fff;
+    padding: 1rem 1rem 1rem 1.2rem;
+    border-radius: 5px;
+    font-style: italic;
+    color: #eaeaea;
+}
+.testimonial .author {
+    display: block;
+    margin-top: 0.7rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    color: #666;
+    font-size: 1em;
+    padding: 2rem 0 1rem 0;
+    background: #000;
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+    .hero-image {
+        height: 90px;
+    }
+    main {
+        padding: 0 0.5rem;
+    }
+    .service-block {
+        padding: 1rem 0.5rem;
+    }
+    .logo {
+        width: 60px;
+        max-width: 45vw;
+    }
+}
